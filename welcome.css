@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    height: 80px;
+    font-size: 20px;
+    word-spacing: 100px;
+}
+
+a.hover {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+.nav {
+    word-spacing: 100px;
+}

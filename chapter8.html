@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 455px;
+        }
+        
+        .box1 {
+            border: 2px solid green;
+            display: inline-block;
+            transform: translate(134px, 56px)rotatex(34deg);
+            transform-origin: 0px;
+            /*transform: scaley(3);
+            transform: skew(4deg, 6deg);
+            transform: matrix(1, 2, 3, 4, 5, 6, 7);*/
+            /*transform: rotatex(90deg);
+            transform: translate (123px, 23px)rotatey(56deg);*/
+        }
+        
+        img:hover {
+            width: 274px;
+        }
+        
+        .box2 {
+            border: 3px solid black;
+        }
+        
+        img {
+            /*width: 455px;
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;*/
+            transition: width 1s ease-in-out 2s;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <img id="myimage" src="img1.JPEG">box1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consequatur assumenda earum nesciunt quod recusandae eligendi aut odio magnam. Non ea doloribus magnam deleniti alias aliquid eligendi officia
+        repellendus ullam!
+        <button id="btn">Toggle</button>
+    </div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error officia ullam eos debitis saepe. Dolorem illum sequi repellendus quo praesentium quis, et omnis aut illo, nisi facilis, fugiat modi.</div>
+    </div>
+</body>
+<script>
+    myImage.style.width = '146px';
+    myImage.style.height = '16px';
+    btn.addEventListener("click," () => {
+                myImage.style.height = '456px';
+                if (myImage.style.width === '546') {
+                    myImage.style.width = "146";
+                } else if (myImage.style.width === '146px') {
+                    Myimage.style.width = "564";
+
+                })
+</script>
+
+
+</html>
